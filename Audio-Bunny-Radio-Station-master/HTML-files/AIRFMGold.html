@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+ 	<meta charset="UTF-8">
+ 	<title>106.4 AIR FM Gold</title>
+  	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+  	<link rel="stylesheet" href="../CSS-Files/fmplayerstyle.css">
+  	<style type="text/css">
+  		body {
+  		background: #ffe866;
+		}
+  		.image {
+  		background: url('../Image-files/fmgold.jpg') no-repeat 75%;
+  		background-size: cover;  
+  		position: absolute;
+  		z-index: 1;
+  		opacity: 0.3;
+  		height: 300px;
+  		width: 300px;
+		}
+  	</style>
+</head>
+
+<body>
+	<div class='music-card playing'>
+  
+	<div class='image'></div>
+  
+  	<div class='wave'></div>
+  	<div class='wave'></div>
+  	<div class='wave'></div>
+  
+  	<div class='info'>
+    	<h2 class='fm_frequency'>106.4</h2>
+    	<div class='station_name'>AIR FM Gold</div>
+  	</div>
+  
+  	<i class="fa fa-pause trigger" aria-hidden="true"></i>
+  	<i class="fa fa-play trigger" aria-hidden="true"></i>
+</div>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    <script>
+      var audio = new Audio('http://51.15.208.163:8081/radio/fmgold/icecast.audio');
+audio.volume = 0.1;
+audio.play();
+
+$('.trigger').click(function() {
+  if (audio.paused == false) {
+      audio.pause();
+      $('.fa-play').show();
+      $('.fa-pause').hide();
+      $('.music-card').removeClass('playing');
+  } else {
+      audio.play();
+      $('.fa-pause').show();
+      $('.fa-play').hide();
+      $('.music-card').addClass('playing');
+  }
+});
+    </script>
+
+</body>
+</html>

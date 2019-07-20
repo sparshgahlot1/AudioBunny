@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Radio Station</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../CSS-files/personalradio.css">
+	<style type="text/css">
+		.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #2e5cb8;
+   color: white;
+   text-align: center;
+}
+	</style>
+</head>
+<body>
+<!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"></a>
+    <!-- END SCROLL TOP BUTTON -->
+
+    <!--=========== BEGIN HEADER SECTION ================-->
+    <header id="header">
+      <!-- BEGIN MENU -->
+      <div class="menu_area">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+        	<div class="container">
+          		<div class="navbar-header">
+          		<img src="../Image-files/logo.jpeg" height="50px" width="50px" style="margin-left: -200px;"> 
+          		<a class="navbar-brand" href="#" height="50px" style="margin-left: -110px;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 22px;">AudioBunny</a>
+            <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              	<span class="sr-only">Toggle navigation</span>
+              	<span class="icon-bar"></span>
+              	<span class="icon-bar"></span>
+             	<span class="icon-bar"></span>
+            </button>
+            <!-- LOGO --> <!-- TEXT BASED LOGO -->
+			<!--<a class="navbar-brand" href="#" ><img src="../Image-files/logo.jpeg" height="50px" alt="AudioBunny"></a>        -->
+                    
+     </div>
+          <div id="navbar" class="navbar-collapse collapse">
+              <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#artists">Artist Radio</a></li>
+								<li><a href="#language">Language Station</a></li>
+								<li><a href="#mood">Mood Radio</a></li>
+                <li><a href="#creators">Contact</a></li>
+              </ul>           
+            </div><!--/.nav-collapse -->
+          </div>     
+        </nav>  
+      </div>
+      <!-- END MENU -->    
+    </header>
+
+	<!-- The first carousel on artist based radio -->
+	<br>
+	<div class="container">
+			<h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-top:50px;">Artist Radio</h2>  
+			<div id="artists" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+					<li data-target="#artists" data-slide-to="0" class="active"></li>
+					<li data-target="#artists" data-slide-to="1"></li>
+					<li data-target="#artists" data-slide-to="2"></li>
+					<li data-target="#artists" data-slide-to="3"></li>
+					<li data-target="#artists" data-slide-to="4"></li>
+					<li data-target="#artists" data-slide-to="5"></li>
+			  </ol>
+		
+			  <div class="carousel-inner">
+					<div class="item active">
+				  	<a href="Arijit Singh.html"><img src="../Image-files/arijitsingh.jpg" alt="Arijit Singh" style="width:100%;"></a>
+					</div>
+		  
+					<div class="item">
+				 		<a href="djsnake_songs.html"><img src="../Image-files/djsnake_big.jpg" alt="DJ Snake" style="width:100%;"></a>
+					</div>
+			  
+					<div class="item">
+				  	<a href="weeknd_songs.html"><img src="../Image-files/weeknd_big.jpg" alt="Weeknd" style="width:100%;">
+					</div>
+					<div class="item">
+							<a href="GuruRandhawa.html"><img src="../Image-files/guru.jpg" alt="Guru Randhawa" style="width:100%;">
+					</div>
+					<div class="item">
+							<a href="Diljit.html"><img src="../Image-files/diljit.jpg" alt="Diljit Dosanjh" style="width:100%;">
+					</div>
+					<div class="item">
+							<a href="Ayushman.html"><img src="../Image-files/ayushman.jpg" alt="Ayushmann Khurrana" style="width:100%;">
+					</div>
+			  </div>
+		  
+			  <a class="left carousel-control" href="#artists" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				
+			  <a class="right carousel-control" href="#artists" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+				</a>
+			</div>
+	</div>
+
+	<div class="container">
+			<h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-top:50px;">Language Radio</h2>  
+			<div id="language" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+					<li data-target="#language" data-slide-to="0" class="active"></li>
+					<li data-target="#language" data-slide-to="1"></li>
+					<li data-target="#language" data-slide-to="2"></li>
+			  </ol>
+		
+			  <div class="carousel-inner">
+					<div class="item active">
+				  	<a href="English.html"><img src="../Image-files/English.jpg" alt="English Songs" style="width:100%;"></a>
+					</div>
+		  
+					<div class="item">
+				 		<a href="Hindi.html"><img src="../Image-files/Hindi.jpg" alt="Hindi Songs" style="width:100%;"></a>
+					</div>
+			  
+					<div class="item">
+				  	<a href="Punjabi.html"><img src="../Image-files/Punjabi.jpg" alt="Punjabi Songs" style="width:100%;">
+					</div>
+			  </div>
+		  
+			  <a class="left carousel-control" href="#language" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				
+			  <a class="right carousel-control" href="#language" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+				</a>
+			</div>
+	</div>
+
+	<div class="container">
+			<h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-top:50px;">Mood Radio</h2>  
+			<div id="mood" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+					<li data-target="#mood" data-slide-to="0" class="active"></li>
+					<li data-target="#mood" data-slide-to="1"></li>
+					<li data-target="#mood" data-slide-to="2"></li>
+			  </ol>
+		
+			  <div class="carousel-inner">
+					<div class="item active">
+				  	<a href="Bollywoodlove.html"><img src="../Image-files/love.jpg" alt="Romantic Songs" style="width:100%;"></a>
+					</div>
+		  
+					<div class="item">
+				 		<a href="Motivational.html"><img src="../Image-files/motivation.jpg" alt="Motivational Songs" style="width:100%;"></a>
+					</div>
+			  
+					<div class="item">
+				  	<a href="Friendship.html"><img src="../Image-files/friends.jpg" alt="Friendship Songs" style="width:100%;">
+					</div>
+			  </div>
+		  
+			  <a class="left carousel-control" href="#mood" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				
+			  <a class="right carousel-control" href="#mood" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+				</a>
+			</div>
+	</div>
+		<br><br><br><br>
+		<div class="creators">
+				<div class="row" >
+					<div class="col-lg-3">
+						<div class="card" style="width:400px;margin-top:20px;">
+							<img class="card-img-top" src="../Image-files/pahwa.jpg" height="300px" width="300px" style="border-radius:50%;">
+							<div class="card-body" style="text-align: center;color: beige;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">
+								<h4 class="card-title">Shivank Pahwa</h4>
+								<a href="https://www.linkedin.com/in/shivank-pahwa-02ba4776/">See my profile</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+							<div class="card" style="width:400px;margin-top:20px">
+								<img class="card-img-top" src="../Image-files/sheena.jpg" height="300px" width="300px" style="border-radius:50%;">
+								<div class="card-body" style="text-align: center;color: beige;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">
+									<h4 class="card-title">Sheena Gupta</h4>
+									<a href="https://www.linkedin.com/in/sheena-gupta-281689150/">See my profile</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3">
+								<div class="card" style="width:400px;margin-top:20px">
+									<img class="card-img-top" src="../Image-files/sourish.jpeg" height="300px" width="300px" style="border-radius:50%;">
+									<div class="card-body" style="text-align: center;color: beige;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">
+										<h4 class="card-title">Sourish Das</h4>
+										<a href="https://www.linkedin.com/in/sclandestined/">See my profile</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3">
+									<div class="card" style="width:400px;margin-top:20px">
+										<img class="card-img-top" src="../Image-files/sparsha.jpg" height="300px" width="300px" style="border-radius:50%;">
+										<div class="card-body" style="text-align: center;color: beige;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">
+											<h4 class="card-title" >Sparsh Gahlot</h4>
+											<a href="https://www.facebook.com/sparsh.gahlot.3">See my profile</a>
+										</div>
+									</div>
+								</div>
+				</div>
+		</div>
+	</div>
+</body>
+</html>

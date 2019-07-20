@@ -1,0 +1,60 @@
+body, html
+{
+  height: 70%;
+}
+.wrapper
+{
+    width:1280px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 200px;
+}
+.zoom-effect-container {
+    float: left;
+    position: relative;
+    width: 640px;
+    height: 360px;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+
+.image-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+#fm_header, #personal_radio_header
+{
+    font-family: "Georgia";
+}
+a:link {
+  text-decoration: none;
+  color: #e6e6e6;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #e6e6e6;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffcc00;
+}
+
+a:active {
+  text-decoration: none;
+  color: #e6e6e6;
+}
